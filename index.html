@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Maker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar bg-dark">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1 text-light">QR App</span>
+        </div>
+    </nav>
+
+    <div class="container p-5">
+        <form class="my-3">
+            <input type="text" class="form-control rounded-0 " placeholder="Enter Text value... ">
+            <select class="form-control rounded-0 my-2" id="size">
+                <option value="250x250">250X250</option>
+                <option value="500x500">500X500</option>
+                <option value="750x750">750X750</option>
+                <option value="1000x1000">1000X1000</option>
+            </select>
+            <button class="btn btn-success rounded-0 w-100 my-2">Get QR</button>
+        </form>
+
+        <div class="conatiner">
+            <img src="images (1).png" style="height: auto;" alt="">
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
